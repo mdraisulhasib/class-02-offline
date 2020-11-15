@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #333;
+	font-family: 'Playfair Display', serif;
+}
+img{
+	max-width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	
+
+}
+.align_center{
+	text-align: center;
+}
+
+header{
+	background-color: #9dac02;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+ul li{	list-style: none;
+		display: inline-block;
+		padding: 16px;
+	}
+ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+	padding: 5px 15px;
+	transition-duration: 1s;
+}
+ul li a:hover{
+	background-color: red;
+}
+
+.banner-section{
+	background-color: #261f1dc9;
+	background-image: url(../images/hill.jpg);
+	background-position: bottom;
+	background-blend-mode: color;
+	padding-bottom: 97px;
+	padding-top: 220px;
+	padding-bottom: 220px;
+}
+h2{
+	font-size: 40px;
+	margin: 0;
+	padding: 16px;
+	font-weight: 700;
+	color: #fff;
+	
+}
+span{color: #e222fe;}
+strong{color: #a9e94c;}
+p{
+	font-size: 20px;
+	line-height: 1.5;
+	color: #fff;
+	margin: 0;
+	padding-bottom: 30px;
+}
+.view-more{
+	color: white;
+	background: #9dac02;
+	font-size: 21px;
+	padding: 10px 25px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	transition-duration: 1s;
+	}
+
+.view-more:hover{
+		background-color: red;
+	}
+
+.box{
+	float: left;
+	width: 50%;
+	padding: 5px 15px;
+	box-sizing: border-box;
+	text-align: center;
+}	
+
+.box h2{
+	color: #333;
+	font-size: 25px;
+}
+.box p{
+	color: #333;
+	font-size: 16px;
+}
